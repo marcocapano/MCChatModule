@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
    s.author = { "Marco Capano" => "marco24capano@icloud.com" }
 
    s.source = { :git => 'https://github.com/marcocapano/MCChatModule.git', :tag => s.version }
-   s.source_files = 'Sources/**/*'
+   s.source_files = 'Sources/*'
 
    s.pod_target_xcconfig = {
       "SWIFT_VERSION" => "4.0",
