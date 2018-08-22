@@ -20,12 +20,12 @@ open class MessagesCollectionViewController: UICollectionViewController, UIColle
     public weak var datasource: MessagesCollectionViewControllerDataSource!
 
     ///We return true so that the inputBar shows up.
-    override public var canBecomeFirstResponder: Bool { return true }
+    override open var canBecomeFirstResponder: Bool { return true }
     
     ///We set out inputBar as the accessoryView so that we get keyboard-avoidance behavior for free.
-    override public var inputAccessoryView: UIView? { return inputBar }
+    override open var inputAccessoryView: UIView? { return inputBar }
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         becomeFirstResponder()
         collectionView?.delegate = self
         collectionView?.dataSource = self
@@ -39,16 +39,16 @@ open class MessagesCollectionViewController: UICollectionViewController, UIColle
         assert(datasource != nil, "MessagesCollectionViewControllerDataSource not set.")
     }
     
-    override public func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    override open func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         ///This is needed to change cells look when the device rotates
         collectionView?.collectionViewLayout.invalidateLayout()
     }
     
-    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return datasource.numberOfMessages()
     }
     
-    override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    override open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "messageCell", for: indexPath) as? MessageCell else { return UICollectionViewCell() }
         
         //Set the message's text
@@ -73,7 +73,7 @@ open class MessagesCollectionViewController: UICollectionViewController, UIColle
         return cell
     }
     
-    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         //We return an appropriate size based on the message content.
         let message = datasource.message(for: indexPath)
