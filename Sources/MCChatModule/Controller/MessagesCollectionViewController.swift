@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MessagesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+open class MessagesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     ///The input bar where the user can type.
     public lazy var inputBar = InputBar()
