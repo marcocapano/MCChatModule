@@ -1,0 +1,16 @@
+PODS:
+  - MCChatModule (1.0.5)
+
+DEPENDENCIES:
+  - MCChatModule
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MCChatModule
+
+SPEC CHECKSUMS:
+  MCChatModule: 29fb66094869e4befb7ddb9b2d284b5602e86b57
+
+PODFILE CHECKSUM: 77c36c0624647a9d28012303623761ff9f967a14
+
+COCOAPODS: 1.5.3
