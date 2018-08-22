@@ -7,6 +7,10 @@ A simple chat module to integrate with your app.
 [![Platform](https://img.shields.io/cocoapods/p/MCChatModule.svg?style=flat)](http://cocoapods.org/pods/MCChatModule)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
+## Example
+
+Want to see it in action? There is an Example folder with an iOS Project ready to be tested on your devices!
+
 ## Features
 
 - [x] Customizable
