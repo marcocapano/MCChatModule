@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C655A64212D99ED000B9BA6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C655A63212D99ED000B9BA6 /* UIColor+Extension.swift */; };
 		4CD39144212C3B810033A227 /* MCChatModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD39136212C3B810033A227 /* MCChatModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD3915B212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39151212C43D30033A227 /* MessagesCollectionViewController.swift */; };
 		4CD3915D212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39153212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C655A63212D99ED000B9BA6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		4CD39133212C3B810033A227 /* MCChatModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCChatModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD39136212C3B810033A227 /* MCChatModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCChatModule.h; sourceTree = "<group>"; };
 		4CD39137212C3B810033A227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,14 +43,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C655A62212D99DC000B9BA6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4C655A63212D99ED000B9BA6 /* UIColor+Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		4CD39129212C3B810033A227 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +62,6 @@
 		4CD39135212C3B810033A227 /* MCChatModule */ = {
 			isa = PBXGroup;
 			children = (
-				4C655A62212D99DC000B9BA6 /* Extensions */,
 				4CD39136212C3B810033A227 /* MCChatModule.h */,
 				4CD39150212C43D30033A227 /* Controller */,
 				4CD39152212C43D30033A227 /* Protocols */,
@@ -193,7 +182,6 @@
 				4CD3915F212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift in Sources */,
 				4CD39169212C43D30033A227 /* MessageCell.swift in Sources */,
 				4CD3915B212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */,
-				4C655A64212D99ED000B9BA6 /* UIColor+Extension.swift in Sources */,
 				4CD39167212C43D30033A227 /* InputBar.swift in Sources */,
 				4CD39161212C43D30033A227 /* SenderType.swift in Sources */,
 				4CD39163212C43D30033A227 /* MessageType.swift in Sources */,

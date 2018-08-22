@@ -74,6 +74,9 @@ public class InputBar: UIView {
         
         inputField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 0))
         inputField.leftViewMode = .always
+        
+        inputField.rightView = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 0))
+        inputField.rightViewMode = .always
     }
     
     
