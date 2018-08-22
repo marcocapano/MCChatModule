@@ -71,6 +71,9 @@ public class InputBar: UIView {
         
         backgroundColor = .white
         sendButton.imageView?.contentMode = .scaleAspectFill
+        
+        inputField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 0))
+        inputField.leftViewMode = .always
     }
     
     

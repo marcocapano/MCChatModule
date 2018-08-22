@@ -69,6 +69,7 @@ open class MessagesCollectionViewController: UICollectionViewController, UIColle
         }
         
         cell.bubbleView.backgroundColor = delegate.color(for: message)
+        cell.textView.textColor = cell.bubbleView.backgroundColor?.getContrastColor() ?? .black
         
         return cell
     }
