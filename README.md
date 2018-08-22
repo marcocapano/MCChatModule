@@ -39,6 +39,35 @@ import MCChatModule
 1. Download and drop ```Sources``` in your project.  
 2. Congratulations! 
 
+## Use
+Creating a chat screen is as simple as:
+
+``` swift
+class ExampleChatViewController: MessagesCollectionViewController, MessagesCollectionViewControllerDataSource {
+    
+    ///The messages to display
+    var messages = [MessageType]() {
+        didSet {
+            collectionView?.reloadData()
+        }
+    }
+    
+    override func viewDidLoad() {
+        datasource = self
+    }
+    
+    func message(for indexPath: IndexPath) -> MessageType {
+        return messages[indexPath.item]
+    }
+    
+    func numberOfMessages() -> Int {
+        return messages.count
+    }
+}
+```
+
+and setting the controller `delegate` property to customize the style.
+
 ## Contribute
 
 Pull requests and issues are welcome.
