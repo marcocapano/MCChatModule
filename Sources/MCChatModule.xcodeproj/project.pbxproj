@@ -7,44 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CD3913D212C3B810033A227 /* MCChatModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD39133212C3B810033A227 /* MCChatModule.framework */; };
-		4CD39142212C3B810033A227 /* MCChatModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39141212C3B810033A227 /* MCChatModuleTests.swift */; };
 		4CD39144212C3B810033A227 /* MCChatModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD39136212C3B810033A227 /* MCChatModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD3915B212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39151212C43D30033A227 /* MessagesCollectionViewController.swift */; };
-		4CD3915C212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39151212C43D30033A227 /* MessagesCollectionViewController.swift */; };
 		4CD3915D212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39153212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift */; };
-		4CD3915E212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39153212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift */; };
 		4CD3915F212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39154212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift */; };
-		4CD39160212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39154212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift */; };
 		4CD39161212C43D30033A227 /* SenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39155212C43D30033A227 /* SenderType.swift */; };
-		4CD39162212C43D30033A227 /* SenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39155212C43D30033A227 /* SenderType.swift */; };
 		4CD39163212C43D30033A227 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39156212C43D30033A227 /* MessageType.swift */; };
-		4CD39164212C43D30033A227 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39156212C43D30033A227 /* MessageType.swift */; };
 		4CD39165212C43D30033A227 /* InputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39157212C43D30033A227 /* InputBarDelegate.swift */; };
-		4CD39166212C43D30033A227 /* InputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39157212C43D30033A227 /* InputBarDelegate.swift */; };
 		4CD39167212C43D30033A227 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39159212C43D30033A227 /* InputBar.swift */; };
-		4CD39168212C43D30033A227 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39159212C43D30033A227 /* InputBar.swift */; };
 		4CD39169212C43D30033A227 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3915A212C43D30033A227 /* MessageCell.swift */; };
-		4CD3916A212C43D30033A227 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3915A212C43D30033A227 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4CD3913E212C3B810033A227 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CD3912A212C3B810033A227 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CD39132212C3B810033A227;
-			remoteInfo = MCChatModule;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4CD39133212C3B810033A227 /* MCChatModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCChatModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD39136212C3B810033A227 /* MCChatModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCChatModule.h; sourceTree = "<group>"; };
 		4CD39137212C3B810033A227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CD3913C212C3B810033A227 /* MCChatModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCChatModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CD39141212C3B810033A227 /* MCChatModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCChatModuleTests.swift; sourceTree = "<group>"; };
-		4CD39143212C3B810033A227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD39151212C43D30033A227 /* MessagesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewController.swift; sourceTree = "<group>"; };
 		4CD39153212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewControllerDataSource.swift; sourceTree = "<group>"; };
 		4CD39154212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewControllerDelegate.swift; sourceTree = "<group>"; };
@@ -63,14 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CD39139212C3B810033A227 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CD3913D212C3B810033A227 /* MCChatModule.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD39135212C3B810033A227 /* MCChatModule */,
-				4CD39140212C3B810033A227 /* MCChatModuleTests */,
 				4CD39134212C3B810033A227 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD39133212C3B810033A227 /* MCChatModule.framework */,
-				4CD3913C212C3B810033A227 /* MCChatModuleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,15 +69,6 @@
 				4CD39137212C3B810033A227 /* Info.plist */,
 			);
 			path = MCChatModule;
-			sourceTree = "<group>";
-		};
-		4CD39140212C3B810033A227 /* MCChatModuleTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CD39141212C3B810033A227 /* MCChatModuleTests.swift */,
-				4CD39143212C3B810033A227 /* Info.plist */,
-			);
-			path = MCChatModuleTests;
 			sourceTree = "<group>";
 		};
 		4CD39150212C43D30033A227 /* Controller */ = {
@@ -174,24 +132,6 @@
 			productReference = 4CD39133212C3B810033A227 /* MCChatModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4CD3913B212C3B810033A227 /* MCChatModuleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CD3914A212C3B810033A227 /* Build configuration list for PBXNativeTarget "MCChatModuleTests" */;
-			buildPhases = (
-				4CD39138212C3B810033A227 /* Sources */,
-				4CD39139212C3B810033A227 /* Frameworks */,
-				4CD3913A212C3B810033A227 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CD3913F212C3B810033A227 /* PBXTargetDependency */,
-			);
-			name = MCChatModuleTests;
-			productName = MCChatModuleTests;
-			productReference = 4CD3913C212C3B810033A227 /* MCChatModuleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,9 +143,6 @@
 				ORGANIZATIONNAME = "Marco Capano";
 				TargetAttributes = {
 					4CD39132212C3B810033A227 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					4CD3913B212C3B810033A227 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -223,20 +160,12 @@
 			projectRoot = "";
 			targets = (
 				4CD39132212C3B810033A227 /* MCChatModule */,
-				4CD3913B212C3B810033A227 /* MCChatModuleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4CD39131212C3B810033A227 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CD3913A212C3B810033A227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,31 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CD39138212C3B810033A227 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CD3915E212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift in Sources */,
-				4CD3915C212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */,
-				4CD39162212C43D30033A227 /* SenderType.swift in Sources */,
-				4CD39164212C43D30033A227 /* MessageType.swift in Sources */,
-				4CD39166212C43D30033A227 /* InputBarDelegate.swift in Sources */,
-				4CD39142212C3B810033A227 /* MCChatModuleTests.swift in Sources */,
-				4CD39168212C43D30033A227 /* InputBar.swift in Sources */,
-				4CD39160212C43D30033A227 /* MessagesCollectionViewControllerDelegate.swift in Sources */,
-				4CD3916A212C43D30033A227 /* MessageCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CD3913F212C3B810033A227 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CD39132212C3B810033A227 /* MCChatModule */;
-			targetProxy = 4CD3913E212C3B810033A227 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4CD39145212C3B810033A227 /* Debug */ = {
@@ -458,44 +363,6 @@
 			};
 			name = Release;
 		};
-		4CD3914B212C3B810033A227 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 345UEZ6M2K;
-				INFOPLIST_FILE = MCChatModuleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrc.MCChatModuleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4CD3914C212C3B810033A227 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 345UEZ6M2K;
-				INFOPLIST_FILE = MCChatModuleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrc.MCChatModuleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,15 +380,6 @@
 			buildConfigurations = (
 				4CD39148212C3B810033A227 /* Debug */,
 				4CD39149212C3B810033A227 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CD3914A212C3B810033A227 /* Build configuration list for PBXNativeTarget "MCChatModuleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CD3914B212C3B810033A227 /* Debug */,
-				4CD3914C212C3B810033A227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
