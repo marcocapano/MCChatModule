@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C655A37212D5800000B9BA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD39137212C3B810033A227 /* Info.plist */; };
+		4C655A38212D5813000B9BA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD39143212C3B810033A227 /* Info.plist */; };
 		4CD3913D212C3B810033A227 /* MCChatModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD39133212C3B810033A227 /* MCChatModule.framework */; };
 		4CD39142212C3B810033A227 /* MCChatModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39141212C3B810033A227 /* MCChatModuleTests.swift */; };
 		4CD39144212C3B810033A227 /* MCChatModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD39136212C3B810033A227 /* MCChatModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -233,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C655A37212D5800000B9BA6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C655A38212D5813000B9BA6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
