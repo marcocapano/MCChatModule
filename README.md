@@ -66,7 +66,7 @@ class ExampleChatViewController: MessagesCollectionViewController, MessagesColle
 }
 ```
 
-and setting the controller `delegate` and `datasource` properties.
+and setting the controller `delegate` property to customize the style.
 
 ## Contribute
 
