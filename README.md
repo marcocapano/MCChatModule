@@ -45,8 +45,9 @@ Pull requests and issues are welcome.
 
 ## Notes
 
-This project is intended as an exercise for both the chat module and pod creation (dealing with podspec is harder than coding😂) but you can still use it in your projects if you want. If you want more features and a supportive community, I would suggest using [MessageKit](https://github.com/MessageKit/MessageKit)
-Please do **not** expect continuous support. This project will get updates, but i'm not 24/7 on this.
+This project is intended as an **exercise** for both the chat module and pod creation (dealing with podspec is harder than coding😂) but you can still use it in your projects if you want. If you want more features and a supportive community, I would suggest using [MessageKit](https://github.com/MessageKit/MessageKit)
+
+Please do **not** expect continuous support.
 
 **Creator:**
 Marco Capano – [@YourTwitter](https://twitter.com/marcocapano1) – marco24capano@icloud.com
