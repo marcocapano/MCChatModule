@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C3BFE06212CAA7700933A9F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39143212C3B810033A227 /* Info.plist */; };
 		4CD3913D212C3B810033A227 /* MCChatModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD39133212C3B810033A227 /* MCChatModule.framework */; };
 		4CD39142212C3B810033A227 /* MCChatModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD39141212C3B810033A227 /* MCChatModuleTests.swift */; };
 		4CD39144212C3B810033A227 /* MCChatModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD39136212C3B810033A227 /* MCChatModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -266,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3BFE06212CAA7700933A9F /* Info.plist in Sources */,
 				4CD3915E212C43D30033A227 /* MessagesCollectionViewControllerDataSource.swift in Sources */,
 				4CD3915C212C43D30033A227 /* MessagesCollectionViewController.swift in Sources */,
 				4CD39162212C43D30033A227 /* SenderType.swift in Sources */,
