@@ -1,3 +1,8 @@
+#macOS
 .DS_Store
+
+#xcode
 build/DerivedData
 
+#pods
+Pods/
