@@ -11,6 +11,8 @@ A simple chat module to integrate with your app.
 
 Want to see it in action? There is an Example folder with an iOS Project ready to be tested on your devices!
 
+<img src="/screenshots/screenshot1.png" width="250"><img src="/screenshots/screenshot2.png" width="250">
+
 ## Features
 
 - [x] Customizable
