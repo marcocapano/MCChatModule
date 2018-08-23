@@ -85,7 +85,7 @@ This project is intended as an **exercise** for both the chat module and pod cre
 Please do **not** expect continuous support.
 
 **Creator:**
-Marco Capano – [@YourTwitter](https://twitter.com/marcocapano1) – marco24capano@icloud.com
+Marco Capano – [@marcocapano1](https://twitter.com/marcocapano1) – marco24capano@icloud.com
 
 Thanks to [@SD10](https://github.com/SD10) for helping with podspec.
 
